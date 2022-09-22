@@ -1,0 +1,65 @@
+* {
+    margin: auto;
+
+}
+
+body {
+    background-color: #182747;
+    color: white;
+    background-size: cover;
+}
+
+#logo {
+    height: 150px;
+}
+
+#primeira_tela {
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+}
+
+#container {
+    margin-top: 100px;
+}
+
+#hairstyle {
+    text-align: center;
+    margin: auto;
+}
+
+#hairstyle>#want {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #B59D5C;
+    margin-bottom: 20px;
+}
+
+#hairstyle>a>button {
+    font-family: 'Great Vibes', 'cursive';
+    font-family: 'Playfair Display', serif;
+    background-color: #B59D5C;
+    width: 60vh;
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+#terceira_tela {
+    font-family: 'Great Vibes', 'cursive';
+    font-family: 'Playfair Display', serif;
+    background-color: #F4EEE3;
+    z-index: 1;
+    margin: 0;
+    height: 500px;
+    color: black;
+
+}
