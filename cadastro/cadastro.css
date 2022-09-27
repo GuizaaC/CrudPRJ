@@ -1,36 +1,32 @@
-
-.topo{
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    background-color: grey;
-    display: flex;
-    height: 20px;
-    justify-content: center;
-    padding: 0 8px 0 12px;
-    position: relative;
-    z-index: 2;
-
-    margin: 0px;
-    padding: 20px;
-    align-items: center;
-    margin-bottom: 10px;
-}
 .logo{
-    height: 50px;
-    position: center;
-    margin-left: auto;
-    margin-right: auto;
+    height: 150px;
 }
 
+.voltar{
+    background-color: #CB6453;
+    color: white;
+    border: none;
+    padding:10px  ;
+    border-radius: 10px;
+    float: right;  
+}
 
 .container{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 300px;
     margin: auto;
-    background-color: aliceblue;
     padding: 20px;
     border-radius: 20px;
-    position:absolute;
+    position:relative;
+
+    backdrop-filter: blur(2px) saturate(59%);
+    -webkit-backdrop-filter: blur(2px) saturate(59%);
+    background-color: rgba(181, 157, 92, 0.8);
+    border-radius: 12px;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: larger;
+    color: white;
 }
 
 input{
@@ -45,8 +41,7 @@ input{
 /* corpo */
 body{
     background-color: #182747;
-
-    margin: 0px;
+   
 }
 /* Botao de enviar */
 .enviar {
@@ -91,16 +86,6 @@ body{
     opacity: 0;
    }
 /* Container principal */
-.container {
-    backdrop-filter: blur(2px) saturate(59%);
-    -webkit-backdrop-filter: blur(2px) saturate(59%);
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
-    position: inherit;
-    text-transform: lowercase;
-}
-
 /*Estilo dos Inputs*/
 .entrada{
     position: relative;
@@ -116,8 +101,11 @@ body{
     color: black;
     background-color: white;
 }
-
     /* Animação dos imputs */
+   .entrada:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
    .entrada:active {
         transform: translateY(-1px);
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -138,11 +126,6 @@ body{
    .entrada:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-   }
-
-   /* Logo */
-   .titulo{
-       color: white;
    }
 
    /*Texto inferior ao cadastro*/
