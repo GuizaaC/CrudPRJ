@@ -69,5 +69,6 @@
 
 
     <script>
-        window.location='../listar_usuarios/listarUsuarios.php';
+        window.location='../login/login.html';
+        // window.location='../listar_usuarios/listarUsuarios.php';
     </script>
