@@ -74,7 +74,7 @@
                 <div class="action">
 					
 					<div>
-                        <summary class="icon">
+                        <summary class="icon" class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -93,7 +93,7 @@
 ?>
 
     </form> 
- <script src="/cadastro/cadastro.js"></script>
+ <script src="./listar.js"></script>
 </body>
 </html>
 
